@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1つ目の数値" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal|numberSigned"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2つ目の数値" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal|numberSigned"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/minusButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="×"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/divisionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="÷"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
